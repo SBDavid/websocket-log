@@ -1,0 +1,14 @@
+{
+  "name": "websocket-log",
+  "version": "1.0.0",
+  "main": "WebsocketLogClient.js",
+  "types": "WebsocketLogClient.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "nodejs-websocket": "^1.7.1"
+  },
+  "bin": {
+    "websocket-log": "WebsocketLogService.js"
+  }
+}
